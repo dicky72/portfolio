@@ -1,4 +1,5 @@
 import { forwardRef } from "react";
+import Image from 'next/image'
 
 const About = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>((props, ref) => {
   return (
@@ -107,7 +108,7 @@ const About = forwardRef<HTMLElement, React.HTMLAttributes<HTMLElement>>((props,
           <div className="flex justify-center">
             <div className="relative">
               <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-primary/20 to-primary/10 opacity-70 blur"></div>
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=500&h=400&auto=format&fit=crop"
                 alt="About Dicky Juliansyah"
                 width={500}

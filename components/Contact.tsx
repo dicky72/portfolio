@@ -3,6 +3,7 @@
 import { forwardRef, useState, FormEvent } from 'react'
 import Link from 'next/link'
 import { Github, Linkedin, Mail, Loader2, Phone } from 'lucide-react'
+import Image from 'next/image'
 
 const Contact = forwardRef<HTMLElement>((props, ref) => {
   const [isSubmitting, setIsSubmitting] = useState(false)

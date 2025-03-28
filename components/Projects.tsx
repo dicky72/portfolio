@@ -1,6 +1,7 @@
 import { forwardRef } from 'react'
 import Link from 'next/link'
 import { ExternalLink } from 'lucide-react'
+import Image from 'next/image'
 
 const Projects = forwardRef<HTMLElement>((props, ref) => {
   return (
@@ -20,7 +21,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
         <div className="mx-auto grid max-w-6xl grid-cols-1 gap-8 py-12 md:grid-cols-2 lg:grid-cols-3">
           <div className="card group">
             <div className="overflow-hidden relative">
-              <img
+              <Image
                 src="masjid.png"
                 alt="Mosque Website"
                 width={400}
@@ -57,7 +58,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
           
           <div className="card group">
             <div className="overflow-hidden relative">
-              <img
+              <Image
                 src="outfit.png"
                 alt="Millennial Outfit E-commerce"
                 width={400}
@@ -95,7 +96,7 @@ const Projects = forwardRef<HTMLElement>((props, ref) => {
           
           <div className="card group">
             <div className="overflow-hidden relative">
-              <img
+              <Image
                 src="barber.png"
                 alt="The Barberhood E-commerce"
                 width={400}

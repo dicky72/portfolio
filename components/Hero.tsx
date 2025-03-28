@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Github, Linkedin, Mail } from 'lucide-react'
+import Image from 'next/image'
 
 type HeroProps = {
   scrollToSection: (ref: React.RefObject<HTMLElement>) => void
@@ -16,7 +17,7 @@ export default function Hero({ scrollToSection, projectsRef, contactRef }: HeroP
           <div className="flex items-center justify-center lg:order-2 lg:ml-auto">
             <div className="relative">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-primary/50 opacity-75 blur-lg md:blur-xl"></div>
-              <img
+              <Image
   src="p.jpg"
   alt="Dicky Juliansyah"
   width={300}
