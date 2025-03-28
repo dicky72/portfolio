@@ -18,7 +18,7 @@ export default function Hero({ scrollToSection, projectsRef, contactRef }: HeroP
             <div className="relative">
               <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-primary to-primary/50 opacity-75 blur-lg md:blur-xl"></div>
               <Image
-  src="p.jpg"
+  src="/p.jpg"
   alt="Dicky Juliansyah"
   width={300}
   height={300}
